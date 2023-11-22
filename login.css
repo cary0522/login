@@ -1,0 +1,13 @@
+.burger{
+    display: none;
+}
+
+.burger_item{
+    position: absolute;
+    left: -576px;
+}
+
+.burger:checked + .burger_item{
+    top: 30px;
+    left: 0px;
+}

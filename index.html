@@ -9,39 +9,55 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
+    <nav class="d-flex justify-content-around">
+        <input type="checkbox" id="bars" class="burger">
+        <div class="burger_item">
+            <a href="#">首頁</a>
+            <a href="#">甜點</a>
+            <a href="#">登入</a>
+        </div>
+        <label for="bars">
+            <i class="fa-solid fa-bars"></i>
+        </label>
         <div class="logo">
             <i class="fa-solid fa-h"></i>
             <i class="fa-solid fa-s"></i>
             <i class="fa-solid fa-u"></i>
         </div>
-        <div>
-            <a href="#">首頁</a>
-            <a href="#">甜點</a>
-            <a href="#">登入</a>
-        </div>
         <div class="shopping_car">
             <i class="fa-solid fa-cart-shopping"></i>
         </div>
     </nav>
-    <div class="container login">
-        <div>
+    <div class="container-fluid login">
+        <div class="text-center bg-success text-white p-3">
             <h2>會員登入</h2>
         </div>
-        <div class="enter">
-            <div>
+        <div class="enter d-flex flex-wrap">
+            <div class="container-fluid bg-success col-12 order-2 p-3 text-center">
+                <div class="input-group my-1">
+                    <i class="fa-solid fa-user input-group-text"></i>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="input-group my-1">
+                    <i class="fa-solid fa-key input-group-text"></i>
+                    <input type="text" class="form-control">
+                </div>
+                <input type="checkbox" name="rember">
+                <span class="text-white">記住我</span>
+            </div>
+            <div class="container-fluid bg-success bg-opacity-10 d-flex justify-content-center p-3 col-12 order-1">
                 <div>
-                    <i class="fa-solid fa-user"></i>
-                    <input type="text">
+                    <button class="btn border border-secondary-subtle rounded-0">facebook</button>
                 </div>
                 <div>
-                    <i class="fa-solid fa-key"></i>
-                    <input type="text">
+                    <button class="btn border border-secondary-subtle rounded-0">Google</button>
+                </div>
+                <div>
+                    <button class="btn border border-secondary-subtle rounded-0">YAHOO!</button>
                 </div>
             </div>
-            <div></div>
         </div>
-        <button class="btn"></button>
+        <button class="btn bg-warning container-fluid rounded-0">登入帳號</button>
     </div>
     <div class="sub"></div>
     <div class="fotter">
