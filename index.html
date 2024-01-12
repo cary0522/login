@@ -32,53 +32,55 @@
         </div>
     </nav>
     <div class="container-fluid login">
-        <div class="text-center bg-success text-white p-3">
+        <div class="text-center bg-success text-white p-3 col-sm-6">
             <h2>會員登入</h2>
         </div>
-        <div class="enter d-flex flex-wrap flex-sm-nowrap col-sm-6">
-            <div class="container-fluid bg-success col-12 order-2 order-sm-1 p-3 d-sm-flex flex-sm-wrap align-items-sm-center">
+        <div class="enter d-flex flex-wrap">
+            <div
+                class="container-fluid bg-success col-12 col-sm-6 order-2 order-sm-1 p-3 d-sm-flex flex-sm-wrap align-items-sm-center">
                 <div class="input-group my-1">
-                    <i class="fa-solid fa-user input-group-text" id="user"></i>
-                    <input type="text" class="form-control" name="user" value="email">
+                    <i class="fa-solid fa-user input-group-text text-success" id="user"></i>
+                    <input type="text" class="form-control" name="user" placeholder="email">
                 </div>
                 <div class="input-group my-1">
-                    <i class="input-group-text fa-solid fa-hashtag" id="password"></i>
-                    <input type="text" class="form-control" name="password" value="password">
+                    <i class="input-group-text fa-solid fa-hashtag text-success" id="password"></i>
+                    <input type="text" class="form-control" name="password" placeholder="password">
                 </div>
                 <input type="checkbox" name="remember" class="text-left">
-                <span class="text-white text-left">記住我</span>
+                <span class="text-white text-left mx-2">記住我</span>
             </div>
             <div
-                class="container-fluid bg-success bg-opacity-10 d-flex flex-sm-wrap justify-content-center p-3 col-12 order-1 order-sm-3 text-center">
+                class="social container-fluid bg-success bg-opacity-10 d-flex flex-sm-wrap justify-content-center p-3 col-12 col-sm-6 order-1 order-sm-3 text-center text-success">
                 <span class="socialmedia col-sm-12">——連結社群帳號——</span>
                 <div class="col-sm-12 m-sm-2">
-                    <button class="btn border border-secondary-subtle rounded-0 w-100">facebook</button>
+                    <button class="btn border border-secondary-subtle rounded-0 w-100 text-success">facebook</button>
                 </div>
                 <div class="col-sm-12 m-sm-2">
-                    <button class="btn border border-secondary-subtle rounded-0 w-100">Google</button>
+                    <button class="btn border border-secondary-subtle rounded-0 w-100 text-success">Google</button>
                 </div>
                 <div class="col-sm-12 m-sm-2">
-                    <button class="btn border border-secondary-subtle rounded-0 w-100">YAHOO!</button>
+                    <button class="btn border border-secondary-subtle rounded-0 w-100 text-success">YAHOO!</button>
                 </div>
             </div>
         </div>
-    <button class="btn bg-warning container-fluid rounded-0">登入帳號</button>
+        <button class="btn bg-warning container-fluid rounded-0 col-sm-6 text-success">登入帳號</button>
     </div>
-    <div class="container-fluid">
-        <div class="container-fluid bg-success d-flex flex-wrap justify-content-center py-3 ">
-            <div class="justify-content-center d-flex justify-content-center text-white col-12">
+    <div class="container-fluid my-5">
+        <div class="container-fluid bg-success d-flex flex-wrap flex-sm-nowrap justify-content-center py-3 ">
+            <div
+                class="justify-content-center d-flex justify-content-center text-white col-12 col-sm-6 align-items-sm-center">
                 <i class="fa-solid fa-s m-2 py-1"></i>
                 <span class="m-2">訂閱你我的甜蜜郵件</span>
             </div>
             <div class="input-group d-flex justify-content-center w-50 text-white m-2">
-                <i class="fa-regular fa-envelope input-group-text py-2"></i>
-                <input type="text" class="form-control">
+                <i class="fa-regular fa-envelope input-group-text py-2 text-success"></i>
+                <input type="text" class="form-control" placeholder="email">
                 <button class="btn btn-warning text-white input-group-text">
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="fa-solid fa-arrow-right text-success"></i>
                 </button>
             </div>
         </div>
-        <div class="bg-success bg-opacity-10 text-success">
+        <div class="bg-success bg-opacity-10 text-success position-relative">
             <div class="container-fluid p-3">
                 <div class="m-3">
                     <i class="fa-solid fa-h"></i>
@@ -94,7 +96,15 @@
                     <a href="https://www.instagram.com/?hl=zh-tw">
                         <i class="fa-brands fa-instagram text-success"></i></a>
                 </div>
-                <div class="m-3">
+                <div class="date m-3 mx-5">
+                    <div>
+                        <span>今天是個————</span>
+                    </div>
+                    <div class="my-3">
+                        <span>吃甜點的好日子。</span>
+                    </div>
+                </div>
+                <div class="m-3 year">
                     <span>@2024</span>
                 </div>
             </div>

@@ -23,6 +23,10 @@
     display: none;
 }
 
+.date{
+    display: none;
+}
+
 @media screen and (min-width:576px){
     .bars_btn{
         display: none;
@@ -36,5 +40,20 @@
     .socialmedia{
         display: inline-block;
         margin: 15px;
+    }
+
+    .date{
+        display: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        writing-mode: vertical-rl;
+        top: 0px;
+        right: 0px;
+    }
+
+    .year{
+        position: relative;
+        left: 86%;
+        top: 20px;
     }
 }
