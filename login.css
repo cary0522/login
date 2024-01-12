@@ -19,6 +19,22 @@
     left: 0px;
 }
 
-.login{
+.socialmedia{
+    display: none;
+}
 
+@media screen and (min-width:576px){
+    .bars_btn{
+        display: none;
+    }
+
+    .burger_item{
+        top: 0px;
+        left: 0px;
+    }
+
+    .socialmedia{
+        display: inline-block;
+        margin: 15px;
+    }
 }
