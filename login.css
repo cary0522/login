@@ -42,10 +42,13 @@
         margin: 15px;
     }
 
+    .footer{
+        position: relative;
+    }
+
     .date{
-        display: absolute;
-        display: flex;
-        flex-wrap: wrap;
+        position: absolute;
+        display: block;
         writing-mode: vertical-rl;
         top: 0px;
         right: 0px;
